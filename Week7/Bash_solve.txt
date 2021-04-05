@@ -1,0 +1,6 @@
+     15   Timeout while retrieving information 
+     13   Connection to DB failed 
+     12   Tried to add information to closed ticket 
+     10   Permission denied while closing ticket 
+      9   The ticket was modified while updating 
+      7   Ticket doesn't exist 

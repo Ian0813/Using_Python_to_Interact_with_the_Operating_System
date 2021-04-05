@@ -2,7 +2,10 @@
 
 import subprocess
 
-result = subprocess.run(["host", "8.8.8.8"], capture_output=True)
+result = subprocess.run(["host", "8.8.8.8.8"], capture_output=True)
+
+if not result.returncode == 0:
+    print("Test")
 
 print(result.returncode) # return the status code of an executed command
 

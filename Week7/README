@@ -1,0 +1,4 @@
+
+
+Linux command : 
+	cat syslog.log |awk -F 'ticky:' '{print $2}'|grep "ERROR"| tr -d 'ERROR'|tr '\(' ':'|awk -F ':' '{print $1}'|sort|uniq -c|sort -rn
